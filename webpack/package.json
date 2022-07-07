@@ -1,0 +1,27 @@
+{
+  "name": "react-webpack-bundling",
+  "version": "1.0.0",
+  "description": "Investigating React library bundling for Server Side Rendering",
+  "main": "bundle.js",
+  "scripts": {
+    "bundle": "webpack"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-stats-plugin": "^1.0.3",
+    "webpack-visualizer-plugin2": "^1.0.0"
+  },
+  "author": "Max Rohde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mxro/react-server-side-bundling/issues"
+  },
+  "homepage": "https://github.com/mxro/react-server-side-bundling#readme"
+}

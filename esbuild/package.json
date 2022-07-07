@@ -4,7 +4,8 @@
   "description": "Investigating React library bundling for Server Side Rendering",
   "main": "bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "node bundle.js",
+    "visualize": "esbuild-visualizer --metadata ./dist/meta.json"
   },
   "repository": {
     "type": "git",

@@ -12,7 +12,6 @@ const fs = require('fs');
     target: 'node16.0',
     metafile: true,
     outfile: './dist/bundle.js',
-    sourcemap: 'inline',
     write: true,
   });
 
