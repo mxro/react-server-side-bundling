@@ -4,6 +4,8 @@ This repository demonstrates how to create a bundle using [esbuild](https://esbu
 
 This would for instance be required when developing a Lambda function that dynamically renders a page using React.
 
+See related issues [esbuild#2377](https://github.com/evanw/esbuild/issues/2377), [react#24841](https://github.com/facebook/react/issues/24841), [goldstack#43](https://github.com/goldstack/goldstack/issues/43)
+
 ## Usage
 
 To generate the bundles in the `esbuild` or `webpack` folders, run the following commands:
