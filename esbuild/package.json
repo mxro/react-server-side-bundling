@@ -1,0 +1,24 @@
+{
+  "name": "react-esbuild-bundling",
+  "version": "1.0.0",
+  "description": "Investigating React library bundling for Server Side Rendering",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxro/react-server-side-bundling.git"
+  },
+  "author": "Max Rohde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mxro/react-server-side-bundling/issues"
+  },
+  "homepage": "https://github.com/mxro/react-server-side-bundling#readme",
+  "dependencies": {
+    "esbuild": "^0.14.48",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
