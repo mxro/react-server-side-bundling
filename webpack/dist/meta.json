@@ -1,0 +1,1237 @@
+{
+  "hash": "60d891d9b9c64043b8a6",
+  "version": "5.73.0",
+  "time": null,
+  "publicPath": "auto",
+  "outputPath": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\dist",
+  "assetsByChunkName": {
+    "main": [
+      "bundle.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "bundle.js",
+      "size": 76070,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "bundle.js.LICENSE.txt"
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "license",
+          "name": "bundle.js.LICENSE.txt",
+          "size": 758,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "extractedComments": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 108398,
+      "sizes": {
+        "javascript": 108398
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "bundle.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "d42cd5b905c5487eb964",
+      "childrenByOrder": {},
+      "id": 179,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 176,
+          "sizes": {
+            "javascript": 176
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "name": "./index.jsx",
+          "nameForCondition": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 316,
+          "issuerId": null,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./index.jsx",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 3:0-98",
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/server.browser.js: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 48478,
+          "sizes": {
+            "javascript": 48478
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server-legacy.browser.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js",
+          "nameForCondition": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server-legacy.browser.production.min.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+          "issuerName": "./node_modules/react-dom/server.browser.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+              "name": "./index.jsx",
+              "id": 316
+            },
+            {
+              "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+              "name": "./node_modules/react-dom/server.browser.js",
+              "id": 703
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 748,
+          "issuerId": 703,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+              "module": "./node_modules/react-dom/server.browser.js",
+              "moduleName": "./node_modules/react-dom/server.browser.js",
+              "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+              "resolvedModule": "./node_modules/react-dom/server.browser.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react-dom-server-legacy.browser.production.min.js",
+              "loc": "6:6-72",
+              "moduleId": 703,
+              "resolvedModuleId": 703
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "renderToNodeStream",
+            "renderToStaticMarkup",
+            "renderToStaticNodeStream",
+            "renderToString",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 12:0-26",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 49898,
+          "sizes": {
+            "javascript": 49898
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server.browser.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom-server.browser.production.min.js",
+          "nameForCondition": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server.browser.production.min.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+          "issuerName": "./node_modules/react-dom/server.browser.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+              "name": "./index.jsx",
+              "id": 316
+            },
+            {
+              "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+              "name": "./node_modules/react-dom/server.browser.js",
+              "id": 703
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 262,
+          "issuerId": 703,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+              "module": "./node_modules/react-dom/server.browser.js",
+              "moduleName": "./node_modules/react-dom/server.browser.js",
+              "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+              "resolvedModule": "./node_modules/react-dom/server.browser.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react-dom-server.browser.production.min.js",
+              "loc": "7:6-65",
+              "moduleId": 703,
+              "resolvedModuleId": 703
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "renderToReadableStream",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 12:0-26",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 658,
+          "sizes": {
+            "javascript": 658
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+          "name": "./node_modules/react-dom/server.browser.js",
+          "nameForCondition": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "issuerName": "./index.jsx",
+          "issuerPath": [
+            {
+              "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+              "name": "./index.jsx",
+              "id": 316
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 703,
+          "issuerId": 316,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+              "module": "./index.jsx",
+              "moduleName": "./index.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+              "resolvedModule": "./index.jsx",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom/server",
+              "loc": "2:0-50",
+              "moduleId": 316,
+              "resolvedModuleId": 316
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+              "module": "./index.jsx",
+              "moduleName": "./index.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+              "resolvedModule": "./index.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom/server",
+              "loc": "3:26-40",
+              "moduleId": 316,
+              "resolvedModuleId": 316
+            }
+          ],
+          "usedExports": [
+            "renderToString"
+          ],
+          "providedExports": [
+            "renderToNodeStream",
+            "renderToReadableStream",
+            "renderToStaticMarkup",
+            "renderToStaticNodeStream",
+            "renderToString",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 6:2-73",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 8999,
+          "sizes": {
+            "javascript": 8999
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\cjs\\react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js",
+          "nameForCondition": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\cjs\\react.production.min.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\index.js",
+          "issuerName": "./node_modules/react/index.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+              "name": "./index.jsx",
+              "id": 316
+            },
+            {
+              "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\index.js",
+              "name": "./node_modules/react/index.js",
+              "id": 466
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 751,
+          "issuerId": 466,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\index.js",
+              "module": "./node_modules/react/index.js",
+              "moduleName": "./node_modules/react/index.js",
+              "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\index.js",
+              "resolvedModule": "./node_modules/react/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react.production.min.js",
+              "loc": "4:2-59",
+              "moduleId": 466,
+              "resolvedModuleId": 466
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Children",
+            "Component",
+            "Fragment",
+            "Profiler",
+            "PureComponent",
+            "StrictMode",
+            "Suspense",
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "cloneElement",
+            "createContext",
+            "createElement",
+            "createFactory",
+            "createRef",
+            "forwardRef",
+            "isValidElement",
+            "lazy",
+            "memo",
+            "startTransition",
+            "unstable_act",
+            "useCallback",
+            "useContext",
+            "useDebugValue",
+            "useDeferredValue",
+            "useEffect",
+            "useId",
+            "useImperativeHandle",
+            "useInsertionEffect",
+            "useLayoutEffect",
+            "useMemo",
+            "useReducer",
+            "useRef",
+            "useState",
+            "useSyncExternalStore",
+            "useTransition",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 12:0-23:24",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 189,
+          "sizes": {
+            "javascript": 189
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js",
+          "nameForCondition": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\index.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "issuerName": "./index.jsx",
+          "issuerPath": [
+            {
+              "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+              "name": "./index.jsx",
+              "id": 316
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 466,
+          "issuerId": 316,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+              "module": "./index.jsx",
+              "moduleName": "./index.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+              "resolvedModule": "./index.jsx",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "1:0-26",
+              "moduleId": 316,
+              "resolvedModuleId": 316
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+              "module": "./index.jsx",
+              "moduleName": "./index.jsx",
+              "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+              "resolvedModule": "./index.jsx",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "3:55-74",
+              "moduleId": 316,
+              "resolvedModuleId": 316
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server-legacy.browser.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js",
+              "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server-legacy.browser.production.min.js",
+              "resolvedModule": "./node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "12:9-25",
+              "moduleId": 748,
+              "resolvedModuleId": 748
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server.browser.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom-server.browser.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom-server.browser.production.min.js",
+              "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server.browser.production.min.js",
+              "resolvedModule": "./node_modules/react-dom/cjs/react-dom-server.browser.production.min.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "12:9-25",
+              "moduleId": 262,
+              "resolvedModuleId": 262
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Children",
+            "Component",
+            "Fragment",
+            "Profiler",
+            "PureComponent",
+            "StrictMode",
+            "Suspense",
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "cloneElement",
+            "createContext",
+            "createElement",
+            "createFactory",
+            "createRef",
+            "forwardRef",
+            "isValidElement",
+            "lazy",
+            "memo",
+            "startTransition",
+            "unstable_act",
+            "useCallback",
+            "useContext",
+            "useDebugValue",
+            "useDeferredValue",
+            "useEffect",
+            "useId",
+            "useImperativeHandle",
+            "useInsertionEffect",
+            "useLayoutEffect",
+            "useMemo",
+            "useReducer",
+            "useRef",
+            "useState",
+            "useSyncExternalStore",
+            "useTransition",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 4:2-60",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./index.jsx"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 176,
+      "sizes": {
+        "javascript": 176
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+      "name": "./index.jsx",
+      "nameForCondition": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 316,
+      "issuerId": null,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./index.jsx",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 3:0-98",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/server.browser.js: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 189,
+      "sizes": {
+        "javascript": 189
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\index.js",
+      "name": "./node_modules/react/index.js",
+      "nameForCondition": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\index.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+      "issuerName": "./index.jsx",
+      "issuerPath": [
+        {
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "name": "./index.jsx",
+          "id": 316
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 466,
+      "issuerId": 316,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "module": "./index.jsx",
+          "moduleName": "./index.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "resolvedModule": "./index.jsx",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "1:0-26",
+          "moduleId": 316,
+          "resolvedModuleId": 316
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "module": "./index.jsx",
+          "moduleName": "./index.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "resolvedModule": "./index.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "3:55-74",
+          "moduleId": 316,
+          "resolvedModuleId": 316
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server-legacy.browser.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js",
+          "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server-legacy.browser.production.min.js",
+          "resolvedModule": "./node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "12:9-25",
+          "moduleId": 748,
+          "resolvedModuleId": 748
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server.browser.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom-server.browser.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom-server.browser.production.min.js",
+          "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server.browser.production.min.js",
+          "resolvedModule": "./node_modules/react-dom/cjs/react-dom-server.browser.production.min.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "12:9-25",
+          "moduleId": 262,
+          "resolvedModuleId": 262
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Children",
+        "Component",
+        "Fragment",
+        "Profiler",
+        "PureComponent",
+        "StrictMode",
+        "Suspense",
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "cloneElement",
+        "createContext",
+        "createElement",
+        "createFactory",
+        "createRef",
+        "forwardRef",
+        "isValidElement",
+        "lazy",
+        "memo",
+        "startTransition",
+        "unstable_act",
+        "useCallback",
+        "useContext",
+        "useDebugValue",
+        "useDeferredValue",
+        "useEffect",
+        "useId",
+        "useImperativeHandle",
+        "useInsertionEffect",
+        "useLayoutEffect",
+        "useMemo",
+        "useReducer",
+        "useRef",
+        "useState",
+        "useSyncExternalStore",
+        "useTransition",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 4:2-60",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 658,
+      "sizes": {
+        "javascript": 658
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+      "name": "./node_modules/react-dom/server.browser.js",
+      "nameForCondition": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+      "issuerName": "./index.jsx",
+      "issuerPath": [
+        {
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "name": "./index.jsx",
+          "id": 316
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 703,
+      "issuerId": 316,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "module": "./index.jsx",
+          "moduleName": "./index.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "resolvedModule": "./index.jsx",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-dom/server",
+          "loc": "2:0-50",
+          "moduleId": 316,
+          "resolvedModuleId": 316
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "module": "./index.jsx",
+          "moduleName": "./index.jsx",
+          "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "resolvedModule": "./index.jsx",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-dom/server",
+          "loc": "3:26-40",
+          "moduleId": 316,
+          "resolvedModuleId": 316
+        }
+      ],
+      "usedExports": [
+        "renderToString"
+      ],
+      "providedExports": [
+        "renderToNodeStream",
+        "renderToReadableStream",
+        "renderToStaticMarkup",
+        "renderToStaticNodeStream",
+        "renderToString",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 6:2-73",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 8999,
+      "sizes": {
+        "javascript": 8999
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\cjs\\react.production.min.js",
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "nameForCondition": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\cjs\\react.production.min.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\index.js",
+      "issuerName": "./node_modules/react/index.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "name": "./index.jsx",
+          "id": 316
+        },
+        {
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js",
+          "id": 466
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 751,
+      "issuerId": 466,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\index.js",
+          "module": "./node_modules/react/index.js",
+          "moduleName": "./node_modules/react/index.js",
+          "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react\\index.js",
+          "resolvedModule": "./node_modules/react/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react.production.min.js",
+          "loc": "4:2-59",
+          "moduleId": 466,
+          "resolvedModuleId": 466
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Children",
+        "Component",
+        "Fragment",
+        "Profiler",
+        "PureComponent",
+        "StrictMode",
+        "Suspense",
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "cloneElement",
+        "createContext",
+        "createElement",
+        "createFactory",
+        "createRef",
+        "forwardRef",
+        "isValidElement",
+        "lazy",
+        "memo",
+        "startTransition",
+        "unstable_act",
+        "useCallback",
+        "useContext",
+        "useDebugValue",
+        "useDeferredValue",
+        "useEffect",
+        "useId",
+        "useImperativeHandle",
+        "useInsertionEffect",
+        "useLayoutEffect",
+        "useMemo",
+        "useReducer",
+        "useRef",
+        "useState",
+        "useSyncExternalStore",
+        "useTransition",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 12:0-23:24",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 48478,
+      "sizes": {
+        "javascript": 48478
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server-legacy.browser.production.min.js",
+      "name": "./node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js",
+      "nameForCondition": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server-legacy.browser.production.min.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+      "issuerName": "./node_modules/react-dom/server.browser.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "name": "./index.jsx",
+          "id": 316
+        },
+        {
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+          "name": "./node_modules/react-dom/server.browser.js",
+          "id": 703
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 748,
+      "issuerId": 703,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+          "module": "./node_modules/react-dom/server.browser.js",
+          "moduleName": "./node_modules/react-dom/server.browser.js",
+          "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+          "resolvedModule": "./node_modules/react-dom/server.browser.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react-dom-server-legacy.browser.production.min.js",
+          "loc": "6:6-72",
+          "moduleId": 703,
+          "resolvedModuleId": 703
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "renderToNodeStream",
+        "renderToStaticMarkup",
+        "renderToStaticNodeStream",
+        "renderToString",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 12:0-26",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 49898,
+      "sizes": {
+        "javascript": 49898
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server.browser.production.min.js",
+      "name": "./node_modules/react-dom/cjs/react-dom-server.browser.production.min.js",
+      "nameForCondition": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\cjs\\react-dom-server.browser.production.min.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+      "issuerName": "./node_modules/react-dom/server.browser.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\index.jsx",
+          "name": "./index.jsx",
+          "id": 316
+        },
+        {
+          "identifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+          "name": "./node_modules/react-dom/server.browser.js",
+          "id": 703
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 262,
+      "issuerId": 703,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+          "module": "./node_modules/react-dom/server.browser.js",
+          "moduleName": "./node_modules/react-dom/server.browser.js",
+          "resolvedModuleIdentifier": "C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\Max\\repos\\react-server-side-bundling\\webpack\\node_modules\\react-dom\\server.browser.js",
+          "resolvedModule": "./node_modules/react-dom/server.browser.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react-dom-server.browser.production.min.js",
+          "loc": "7:6-65",
+          "moduleId": 703,
+          "resolvedModuleId": 703
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "renderToReadableStream",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 12:0-26",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "bundle.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "bundle.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": []
+}
