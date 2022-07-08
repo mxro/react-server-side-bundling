@@ -17,20 +17,58 @@ npm run bundle
 
 The generated bundle will be in the file `dist/bundle.js`.
 
+## esbuild Configuration
+
+The following esbuild configuration is used for generating the bundle ([bundle.js](https://github.com/mxro/react-server-side-bundling/blob/master/esbuild/bundle.js)): 
+
+```javascript
+  const res = await esbuild.build({
+    entryPoints: ['./index.jsx'],
+    bundle: true,
+    minify: true,
+    platform: 'node',
+    format: 'cjs',
+    treeShaking: true,
+    define: { 'process.env.NODE_ENV': '"production"' },
+    target: 'node16.0',
+    metafile: true,
+    outfile: './dist/bundle.js',
+    write: true,
+  });
+```
+
+## Webpack Configuration
+
+The following webpack config is used for generating the bundle using webpack ([webpack.config.json](https://github.com/mxro/react-server-side-bundling/blob/master/webpack/webpack.config.js))
+
+```javascript
+module.exports = {
+ entry: './index.jsx',
+ mode: 'production',
+ output: {
+   path: path.join(__dirname, '/dist'),
+   filename: 'bundle.js'
+ },
+ module: {
+   rules: [
+     {
+       test: /\.(js|jsx)$/,
+       exclude: /nodeModules/,
+       use: {
+         loader: 'babel-loader'
+       }
+     }
+   ]
+ },
+}
+```
+
 ## Findings
 
-Using the latest versions of esbuild and webpack 5, it seems that webpack creates a much smaller bundle.
+Using the correct configuration for both esbuild and webpack, efficient bundles are created:
 
 _Bundle size_
 
 - Webpack: 75 kb
-- esbuild: 284 kb
+- esbuild: 83 kb
 
-This seems to be due esbuild including both development and production versions of React libraries as well as `legacy` versions for `react-dom-server`:
-
-- `node_modules/react/cjs/react.production.min.js`
-- `node_modules/react/cjs/react.development.js`
-- `node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js`
-- `node_modules/react-dom/cjs/react-dom-server.node.production.min.js`
-- `node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js`  
-- `node_modules/react-dom/cjs/react-dom-server.node.development.js`

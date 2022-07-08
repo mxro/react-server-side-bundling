@@ -9,7 +9,9 @@ const fs = require('fs');
     platform: 'node',
     format: 'cjs',
     treeShaking: true,
-    define: { 'process.env.NODE_ENV': '"production"' },
+    define: {
+      'process.env.NODE_ENV': '"production"'
+    },
     target: 'node16.0',
     metafile: true,
     outfile: './dist/bundle.js',
